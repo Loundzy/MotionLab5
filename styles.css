@@ -1,0 +1,80 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+#B {
+    animation: loadB 2s infinite;
+}
+
+@keyframes loadB {
+    0%, 100% {
+        transform: translateX(255px);
+    }
+    25% {
+        transform: rotate(180deg);
+    }
+    50% {
+        transform: translateX(0px) rotate(180deg);
+    }
+    75% {
+        transform: rotate(360deg);
+    }
+}
+
+#letterB {
+    animation: colorB 2s infinite;
+}
+
+@keyframes colorB {
+    0%, 100% {
+        fill: green;
+    }
+    25% {
+        
+    }
+    50% {
+    
+    }
+    75% {
+        fill: red;
+    }
+}
+
+#L {
+    animation: loadL 2s infinite;
+}
+
+@keyframes loadL {
+    0%, 100% {
+        transform: translateX(-255px);
+    }
+    25% {
+        transform: rotate(-180deg);
+    }
+    50% {
+        transform: translateX(0px) rotate(-180deg);
+    }
+    75% {
+        transform: rotate(-360deg);
+    }
+}
+
+#letterL {
+    animation: colorL 2s infinite;
+}
+
+@keyframes colorL {
+    0%, 100% {
+        fill: red;
+    }
+    25% {
+        
+    }
+    50% {
+    
+    }
+    75% {
+        fill: green;
+    }
+}
